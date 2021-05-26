@@ -28,7 +28,6 @@ const User = db.define('User', {
   // Other model options go here
 });
 
-// `sequelize.define` also returns the model
 console.log(User === sequelize.models.User); // true
 const User1 = db.define('User1', {
   // Model attributes are defined here
